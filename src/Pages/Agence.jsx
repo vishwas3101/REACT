@@ -52,16 +52,16 @@ const Agence = () => {
   return (
     <div>
       <div className='Section1'>
-      <div ref={imageDivRef} className='absolute overflow-hidden  h-[20vw] w-[13vw] rounded-3xl top-96 left-[30vw]'>
+      <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[40vw] lg:w-[13vw] w-[20vw] lg:rounded-3xl rounded-2xl lg:op-96 left-[30vw]'>
         <img ref={imageRef} className='h-full object-cover w-full' src="https://k72.ca/images/teamMembers/Carl_480x640.jpg?w=480&h=640&fit=crop&s=f0a84706bc91a6f505e8ad35f520f0b7" alt="" />
       </div>
       <div className='font-[font500] relative '> 
-      <div className=' mt-[55vh]'>
+      <div className='lg:mt-[55vh] mt-[45vh]'>
         <h1 className='text-[12vw] text-center uppercase leading-[15vw] text-black '>【ＮＥＶＥＲ】<br/>
 【ＳＥＴＴＬＥ】</h1>
       </div>
-      <div className='pl-[40%] mt-20'>
-        <p className='text-6xl  text-black '>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From hanging out in the canteen to late-night study sessions, their bond grows stronger with every moment. They support each other during exams, celebrate small successes, and share endless jokes that become lifelong inside stories. Whether it’s playing sports, planning trips, or just sitting together discussing random topics, the circle becomes like a second family. These friendships create unforgettable experiences and stay cherished forever.</p>
+      <div className='lg:pl-[40%] pl-[10%] lg:mt-20 mt-10 p-5'>
+        <p className='lg:text-6xl  text-black leading-tight '>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From hanging out in the canteen to late-night study sessions, their bond grows stronger with every moment. They support each other during exams, celebrate small successes, and share endless jokes that become lifelong inside stories. Whether it’s playing sports, planning trips, or just sitting together discussing random topics, the circle becomes like a second family. These friendships create unforgettable experiences and stay cherished forever.</p>
       </div>
     </div>
       </div>
